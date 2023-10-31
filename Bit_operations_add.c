@@ -8,3 +8,5 @@ int main(void) {
     printf("%d\n", func(a, func(b, c)));//先实现b + c ,后实现a + (b + c)
 }
 //减法a - b可以看成a + (-b), -b =  ~b + 1
+
+// test
